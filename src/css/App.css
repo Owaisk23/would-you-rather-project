@@ -1,0 +1,496 @@
+/* App css  */
+
+.App {
+    text-align: center;
+}
+  
+.App-logo {
+    animation: App-logo-spin infinite 20s linear;
+    height: 40vmin;
+    pointer-events: none;
+}
+  
+.App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+  
+.App-link {
+    color: #61dafb;
+}
+  
+@keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+}
+
+/* Home page css */
+  
+.homeContainer {
+    min-width: 320px;
+    max-width: 500px;
+    height: auto;
+    position: absolute;
+    top: 20%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    
+}
+
+/* Leaderboard css */
+
+.leaderBoardContainer {
+    min-width: 320px;
+    max-width: 500px;
+    height: auto;
+    position: absolute;
+    top: 20%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+}
+
+/* Login page css */
+
+.long-loginContainer {
+    min-width: 320px;
+    max-width: 400px;
+    height: auto;
+    position: absolute;
+    top: 20%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+}
+
+.long-paper {
+    padding: 20px;
+    overflow: auto
+}
+
+.loginBoxHeader {
+    height: 50px;
+    background-color: brown;
+}
+
+.loginBoxTitle {
+    font-weight: bold;
+    text-align: center;
+}
+
+.loginBoxMessage {
+    text-align: center;
+}
+
+.loginControls {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.formControl {
+    width: calc(100% - 10px);
+    margin: 10px 0px !important;
+}
+
+.loginBoxImage {
+    width: 30px;
+    height: 30px;
+}
+
+/* navbar css */
+
+.navLinkButton {
+    color: clay !important;
+}
+
+/* New question css */
+
+.long-newQuestionContainer {
+    min-width: 320px;
+    max-width: 400px;
+    height: auto;
+    position: absolute;
+    top: 20%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    
+}
+
+.long-newQuestionPaper {
+    padding: 20px;
+    overflow: auto
+}
+
+.newQuestionBoxHeader {
+    height: 50px;
+    font-weight: bold;
+    font-size: 1.5em;
+    text-align: center;
+    border-bottom-style: solid;
+    border-color: lightgray;
+    border-width: 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.newQuestionControls {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.newQuestionFormControl {
+    width: 100%;
+}
+
+.newQuestionText {
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.newQuestionSeparator {
+    text-align: center;
+}
+
+/* 404Page page css */
+
+.notFoundContainer {
+    min-width: 320px;
+    max-width: 600px;
+    height: auto;
+    position: absolute;
+    top: 20%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+}
+
+
+
+.notFoundTitle {
+    font-weight: bold;
+    text-align: center;
+    font-size: 5vw;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #f50057;
+}
+
+.notFoundMessage {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-top:40px;
+    margin-bottom: 40px;
+}
+
+
+/* Pollitem css */
+
+.pollItemContainer {
+    min-width: 320px;
+    max-width: 450px;
+    height: auto;
+    margin: auto;
+    
+}
+
+
+.pollItemPaper {
+    overflow: auto
+}
+
+.pollItemBoxHeader {
+    height: 50px;
+    font-weight: bold;
+    text-align: center;
+    border-bottom-style: solid;
+    border-color: brown;
+    border-width: 1px;
+    display: flex;
+    flex-direction: column;
+    background-color: brown;
+    text-align: left;
+    justify-content: center;
+    padding-left: 10px;
+}
+
+
+.pollItemControls {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+
+.pollItemFormControl {
+    width: 100%;
+    margin-top: 30px !important;
+}
+
+.pollItemText {
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.pollItemSeparator {
+    text-align: center;
+    background-color: black;
+    height: 100%;
+    width: 1px;
+}
+
+.pollItemMainTitle {
+    
+    font-weight: bold;
+    font-size: 1em;
+    height: 30px;
+    
+    
+}
+
+/* Poll result css */
+
+.pollResultsContainer {
+    min-width: 320px;
+    max-width: 500px;
+    height: auto;
+    position: absolute;
+    top: 20%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    
+}
+
+
+.pollResultsPaper {
+    overflow: auto
+}
+
+.pollResultsBoxHeader {
+    height: 50px;
+    font-weight: bold;
+    text-align: center;
+    border-bottom-style: solid;
+    border-color: brown;
+    border-width: 1px;
+    display: flex;
+    flex-direction: column;
+    background-color: brown;
+    text-align: left;
+    justify-content: center;
+    padding-left: 10px;
+}
+
+
+.pollResultsControls {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+
+.pollResultsFormControl {
+    width: 100%;
+    margin-top: 30px !important;
+}
+
+.pollResultsText {
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.pollResultsSeparator {
+    text-align: center;
+    background-color: brown;
+    height: 100%;
+    width: 1px;
+}
+
+.pollResultsMainTitle {
+    
+    font-weight: bold;
+    font-size: 1em;
+    height: 30px;
+}
+
+.pollResultsAnswerGrid {
+    margin-top:30px !important;
+}
+
+.pollResultsVoteCount {
+    text-align: center;
+    font-weight: bold;
+}
+
+.pollResultsAnswerPaper {
+    padding: 10px;
+}
+
+.pollResultsAnswerProgress {
+    height: 15px !important;
+}
+
+.pollResultsUserVoteDiv {
+    background-color: #f50057;
+    width: 50px;
+    border-radius: 50%;
+    text-align: center;
+    margin-top: -31px;
+    margin-left: 260px;
+    position: absolute;
+    height: 50px;
+}
+
+/* Questions css */
+
+
+.questionContainer {
+    min-width: 320px;
+    max-width: 450px;
+    height: auto;
+    position: absolute;
+    top: 20%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    
+}
+
+.questionPaper {
+    overflow: auto
+}
+
+.questionBoxHeader {
+    height: 50px;
+    font-weight: bold;
+    text-align: center;
+    border-bottom-style: solid;
+    border-color: brown;
+    border-width: 1px;
+    display: flex;
+    flex-direction: column;
+    background-color: brown;
+    text-align: left;
+    justify-content: center;
+    padding-left: 10px;
+}
+
+
+
+.questionControls {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+
+.questionFormControl {
+    width: 100%;
+}
+
+.questionText {
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.questionSeparator {
+    text-align: center;
+    background-color: black;
+    height: 100%;
+    width: 1px;
+}
+
+.questionMainTitle {
+    
+    font-weight: bold;
+    font-size: 1.2em;
+    
+    
+}
+
+/* Scorecard css */
+
+.scoreCardContainer {
+    margin: 'auto';
+    max-width: 500;
+    text-align: left
+}
+
+.scoreCardImg {
+    margin: 'auto';
+    display: 'block';
+    max-width: '100%';
+    max-height: '100%';
+    width: 100px;
+    height: 100px;
+}
+
+
+.scoreCardSeparator {
+    text-align: center;
+    background-color: black;
+    height: 100%;
+    width: 1px;
+}
+
+.scoreCardSeparatorGrid {
+    max-width: 1px !important;
+}
+
+.scoreCardScorePaper {
+    margin-left: -10px;
+    width: calc(100% - 10px);
+    height: calc(100% - 20px);
+}
+
+.scoreCardScoreGrid {
+    height: 100%;
+}
+
+.scoreCardScoreBoxHeader {
+    height: 30px;
+    font-weight: bold;
+    
+    text-align: center;
+    border-bottom-style: solid;
+    border-color: brown;
+    border-width: 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.scoreCardBadge {
+    margin-top: 25px;
+}
+
+
+.scoreCardNameBox {
+    font-weight: bold;
+}
